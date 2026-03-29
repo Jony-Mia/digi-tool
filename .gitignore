@@ -10,6 +10,7 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+B13-A6-DigiTools-Platform
 *.local
 
 # Editor directories and files

@@ -1,9 +1,10 @@
 import './App.css'
+import Home from './pages/Home';
 
 const App = () => {
   return (
     <div>
-      <button className='btn text-base-100 btn-error'>Click</button>
+      <Home/>
     </div>
   );
 };
