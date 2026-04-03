@@ -14,8 +14,8 @@ const Hero = () => {
                         <span className='bg-[#E1E7FF] py-1 px-2.5 w-fit block rounded-full'>
                             <Indicator />
                         </span>
-                        <div>
-                            <h2 className='text-6xl font-semibold leading-18'>
+                        <div className='mt-5'>
+                            <h2 className='text-3xl md:text-6xl leading-10 font-semibold md:leading-18'>
                                 Supercharge Your Digital Workflow
                             </h2>
                             <p className='leading-6 mt-4'>Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today.Explore Products

@@ -1,9 +1,16 @@
+import { useState } from "react";
+import { SVG } from "./Products";
 const Cart = ({ cart, setCart}) => {
     let calc = cart.map(data=>data.price)
     
     const total = calc.reduce((acc, item) => {
     return acc + eval(item);
   }, 0);
+  let [buyed,setBuyed] = useState(false)
+  let buy = ()=>{
+    setBuyed(true)
+    setCart([])
+  }
   
     return (
        <>
@@ -20,10 +27,10 @@ const Cart = ({ cart, setCart}) => {
                     <p className="font-bold text-lg">${total}</p>
                 </div>
                 <div className="w-full mt-5">
-                    <button className="btn-lg rounded-full w-full btn btn-primary">Proceed to Checkout</button>
+                    <button onClick={buy} className="btn-lg rounded-full w-full btn btn-primary">Proceed to Checkout</button>
                 </div>
             </div>
-        </div>: <p className="text-3xl font-bold">Your car is empty</p>}
+        </div>:   <h1 className='text-2xl font-bold'>{buyed?<p className="text-2xl"> <span className="fa fa-check-circle text-green-400 "></span> Checkout Completed</p>: <p>Your Cart is empty</p>}</h1>}
        </>
     );
 };

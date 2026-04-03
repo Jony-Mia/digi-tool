@@ -23,7 +23,17 @@ const Home =() => {
             </div>
             <Suspense fallback={<h2>Loading</h2>}>
                 <Tools  cart={cart} setCart={setCart} dataList={dataList}/>
-                <div className='m-auto container'>
+                <div className='m-auto mt-10 container'>
+                      <div className="hero ">
+                <div className="hero-content text-center">
+                    <div className="max-w-md">
+                        <h1 className="text-4xl font-bold">Pricing Digital Tools</h1>
+
+                        <p className="py-6"> Choose from our curated collection of premium digital products designedto boost your productivity and creativity. </p>
+
+                    </div>
+                </div>
+            </div>
                    <Pricing price={priceData}/>
                    <br />
                    <br />

@@ -18,8 +18,6 @@ const Pricing = ({ price }) => {
                 badge={priceData.badge}
                 price={priceData.price}
                 color={priceData.color?.background}
-                // grad_1={priceData.color?.backgroundGradient[ "#7C3AED"]}
-                // grad_2={priceData.color?.backgroundGradient[ "#9333EA"]}
                 
             />)
             }
