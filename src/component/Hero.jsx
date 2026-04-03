@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div>
             <div className="hero  min-h-screen">
-                <div className="hero-content grid grid-cols-2 ">
+                <div className="hero-content grid md:grid-cols-2 grid-cols-1 ">
                     <img
                         src={banner}
                         className="w-md "

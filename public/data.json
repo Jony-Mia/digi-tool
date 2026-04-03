@@ -1,0 +1,86 @@
+[
+  {
+    "img":"src/assets/products/writing_2327400 1.png",
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": "29",
+    "subscription_duration": "monthly",
+    "badge": "Best Seller",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ]
+  },
+  {
+    "img":"src/assets/products/design-tool.png",
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": "49",
+    "subscription_duration": "one time",
+    "badge": "popular",
+    "features": [
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license"
+    ]
+  },
+  {
+    "img":"src/assets/products/camera.png",
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": "19",
+    "subscription_duration": "monthly",
+    "badge": "new",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution"
+    ]
+  },
+  {
+    "img":"src/assets/products/operation.png",
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": "79",
+    "subscription_duration": "monthly",
+    "badge": "popular",
+    "features": [
+      "50+ automations",
+      "API access",
+      "Custom workflows"
+    ]
+  },
+  {
+    "img":"src/assets/products/portfolio.png",
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": "15",
+    "subscription_duration": "one time",
+    "badge": "new",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ]
+  },
+  {
+    "img":"src/assets/products/social-media.png",
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": "39",
+    "subscription_duration": "monthly",
+    "badge": "best_seller",
+    "features": [
+      "5000+ assets",
+      "Scheduler included",
+      "Analytics dashboard"
+    ]
+  }
+]
