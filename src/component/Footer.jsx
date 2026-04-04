@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <>
 
-            <footer className="footer sm:footer-horizontal container m-auto text-neutral-content p-10">
+            <footer className="footer flex-wrap sm:footer-horizontal container m-auto text-neutral-content p-10">
                 <nav>
                     <h2 className='font-bold my-2 text-3xl text-white'>DigiTool</h2>
                     <p className='w-50 text-[15px]'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
