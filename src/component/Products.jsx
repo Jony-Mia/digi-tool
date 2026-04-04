@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const Products = ({hello, name, image, price, description, badge, points, time,list , cart, setCart}) => {
+const Products = ({ name, image, price, description, badge, points, time,list , cart, setCart}) => {
     let [purchase, setPurchase] = useState(false)
     function addCart(data){
         setCart([...cart,data]);
@@ -22,7 +22,6 @@ const Products = ({hello, name, image, price, description, badge, points, time,l
                     <ul className="mt-6 flex flex-col gap-2 text-xs">
                         
                         {points.map((dataList,index)=><li key={index}><SVG/>{dataList}</li>)}
-
                     </ul>
                     <div className="mt-6">
                         <button onClick={()=>addCart(list)} disabled={purchase} className="btn btn-primary rounded-full btn-block">Buy Now</button>

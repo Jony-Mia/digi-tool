@@ -10,24 +10,26 @@ const Footer = () => {
                     <p className='w-50 text-[15px]'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
                 </nav>
                 <nav>
-                    <h6 className="footer-title">Services</h6>
-                    <a className="link link-hover">Branding</a>
-                    <a className="link link-hover">Design</a>
-                    <a className="link link-hover">Marketing</a>
-                    <a className="link link-hover">Advertisement</a>
+                    <h6 className="footer-title">Product</h6>
+                    <a className="link link-hover">Features</a>
+                    <a className="link link-hover">Pricing</a>
+                    <a className="link link-hover">Templates</a>
+                    <a className="link link-hover">Integrations</a>
                 </nav>
                 <nav>
-                    <h6 className="footer-title">Company</h6>
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
+                    <h6 className="footer-title">About</h6>
+                    <a className="link link-hover">About</a>
+                    <a className="link link-hover">Blog</a>
+                    <a className="link link-hover">Careers</a>
                     <a className="link link-hover">Jobs</a>
-                    <a className="link link-hover">Press kit</a>
+                    <a className="link link-hover">Press</a>
                 </nav>
                 <nav>
-                    <h6 className="footer-title">Legal</h6>
-                    <a className="link link-hover">Terms of use</a>
-                    <a className="link link-hover">Privacy policy</a>
-                    <a className="link link-hover">Cookie policy</a>
+                    <h6 className="footer-title">Resources</h6>
+                    <a className="link link-hover">Documantetion</a>
+                    <a className="link link-hover">Help Center</a>
+                    <a className="link link-hover">Community</a>
+                    <a className="link link-hover">Contact</a>
                 </nav>
                 <nav>
                         <h6 className="footer-title">Social Links</h6>

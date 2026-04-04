@@ -51,7 +51,7 @@ export let CardList = ({setCart,data, name, id, price, img }) =>{
             </div>
         </div>
         <div>
-            <button onClick={()=>del(id)} className="text-error font-medium"> Remove</button>
+            <button onClick={()=>del(id)} className="text-base-100 btn-error btn rounded-full font-medium"> <span className="fa fa-trash "></span> </button>
         </div>
     </div>
 )
